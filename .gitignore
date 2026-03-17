@@ -1,0 +1,19 @@
+# 大きなモデルファイル（GitHubには上げない）
+*.safetensors
+*.bin
+*.gguf
+*.pt
+*.pth
+
+# 環境設定
+.env
+__pycache__/
+*.pyc
+
+# データファイル（小さければ上げてもOK）
+*.jsonl
+*.csv
+
+# 一時ファイル
+interim_*.jsonl
+temp_*.jsonl
